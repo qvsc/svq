@@ -11,10 +11,7 @@ if (!isloggedin()) {
 	
 	
 	$content = elgg_view('core/walled_garden/login');
-	$content .= '<h3>Firma el llamamiento:</h3>
-	<p>Ganemos Sevilla espera el apoyo con su firma de 10.000 ciudadanos y ciudadanas para presentarse 
-	a las elecciones municipales como una candidatura unitaria y popular.</p><p> Si aún no lo has hecho, 
-	<a href="http://ganemossevilla.org/firma/"><strong>Firma nuestro llamamiento.</strong></a></p>';
+	
 	$params = array(
 		'content' => $content,
 		'class' => 'elgg-walledgarden-double',
