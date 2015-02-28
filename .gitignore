@@ -1,0 +1,2 @@
+# ignore Elgg configuration
+/engine/settings.php
